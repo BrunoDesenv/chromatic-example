@@ -26,26 +26,26 @@ type Story = StoryObj<Button>;
 export const Primary: Story = {
   args: {
     primary: true,
-    label: 'Button',
+    label: 'Button4',
   },
 };
 
 export const Secondary: Story = {
   args: {
-    label: 'Button',
+    label: 'Butto3n',
   },
 };
 
 export const Large: Story = {
   args: {
     size: 'large',
-    label: 'Button',
+    label: 'Button2',
   },
 };
 
 export const Small: Story = {
   args: {
     size: 'small',
-    label: 'Button',
+    label: 'Button1',
   },
 };
